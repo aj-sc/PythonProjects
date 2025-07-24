@@ -1,0 +1,11 @@
+,CustomerID,Name,Country,TotalSpent,Orders,LastPurchaseDate,AverageOrderValue,Segment
+24,1025,Customer_25,Colombia,3575.29,13,2023-11-08,275.02,High
+81,1082,Customer_82,Colombia,4060.06,14,2023-09-17,290.0,High
+92,1093,Customer_93,Colombia,1909.14,5,2023-06-03,381.83,High
+99,1100,Customer_100,Colombia,2974.62,22,2023-11-02,135.21,Medium
+104,1105,Customer_105,Colombia,678.95,13,2024-01-24,52.23,Medium
+115,1116,Customer_116,Colombia,4880.47,10,2023-08-17,488.05,High
+140,1141,Customer_141,Colombia,1812.06,1,2024-04-16,1812.06,High
+153,1154,Customer_154,Colombia,2197.57,21,2023-11-26,104.65,Medium
+159,1160,Customer_160,Colombia,3148.01,19,2023-09-19,165.68,Medium
+169,1170,Customer_170,Colombia,2898.6,21,2023-04-21,138.03,Medium

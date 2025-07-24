@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('Exercise 3/orders.csv')
+df = pd.read_csv('Pandas Trainning/Exercise 3/orders.csv')
 
 df[['DeliveryDate', 'ShipDate']] = df[['DeliveryDate', 'ShipDate']].apply(pd.to_datetime)
 
@@ -14,4 +14,9 @@ def isLate(row):
     
 df['isLate'] = df.apply(isLate, axis=1)
 
-print(df.head())
+df = df[df['DeliveryDate'].notna()]
+
+df2 = df.groupby(by='Status')['DeliveryTime'].mean()
+
+df.to_csv('Pandas Trainning/Exercise 3/CleanOrders.csv')
+df2.to_csv('Pandas Trainning/Exercise 3/ordersSummary.csv')
